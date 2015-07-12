@@ -16,6 +16,7 @@ class rabbitmq::config {
   $env_config_path            = $rabbitmq::env_config_path
   $erlang_cookie              = $rabbitmq::erlang_cookie
   $interface                  = $rabbitmq::interface
+  $management_hostname        = $rabbitmq::management_hostname
   $management_port            = $rabbitmq::management_port
   $management_ssl             = $rabbitmq::management_ssl
   $node_ip_address            = $rabbitmq::node_ip_address
